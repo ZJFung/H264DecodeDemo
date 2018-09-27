@@ -1,2 +1,2 @@
 # H264DecodeDemo
-H264 Video Hardware Demo
+H264 Video Hardware Decoder Demo for iOS.
