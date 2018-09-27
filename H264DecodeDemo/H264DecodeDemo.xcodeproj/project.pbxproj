@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38DEC1AC215B7BCE00234F6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DEC1AB215B7BCE00234F6A /* AppDelegate.m */; };
+		38DEC1AF215B7BCE00234F6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DEC1AE215B7BCE00234F6A /* ViewController.m */; };
+		38DEC1B2215B7BCE00234F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DEC1B0215B7BCE00234F6A /* Main.storyboard */; };
+		38DEC1B4215B7BCF00234F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38DEC1B3215B7BCF00234F6A /* Assets.xcassets */; };
+		38DEC1B7215B7BCF00234F6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DEC1B5215B7BCF00234F6A /* LaunchScreen.storyboard */; };
+		38DEC1BA215B7BCF00234F6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DEC1B9215B7BCF00234F6A /* main.m */; };
+		38DEC1C4215B7BCF00234F6A /* H264DecodeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DEC1C3215B7BCF00234F6A /* H264DecodeDemoTests.m */; };
+		38DEC1CF215B7BCF00234F6A /* H264DecodeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DEC1CE215B7BCF00234F6A /* H264DecodeDemoUITests.m */; };
+		38DEC1DE215B7C2200234F6A /* ZJH264Decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DEC1DD215B7C2200234F6A /* ZJH264Decoder.m */; };
+		38DEC1E1215B7DB000234F6A /* ZJVideoFileParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DEC1E0215B7DB000234F6A /* ZJVideoFileParser.m */; };
+		38DEC1E3215B83C200234F6A /* mtv.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 38DEC1E2215B821A00234F6A /* mtv.h264 */; };
+		38DEC1E6215B88B200234F6A /* ZJFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DEC1E5215B88B200234F6A /* ZJFirstViewController.m */; };
+		38DEC1E9215B88C200234F6A /* ZJSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DEC1E8215B88C200234F6A /* ZJSecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38DEC1C0215B7BCF00234F6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38DEC19F215B7BCE00234F6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DEC1A6215B7BCE00234F6A;
+			remoteInfo = H264DecodeDemo;
+		};
+		38DEC1CB215B7BCF00234F6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38DEC19F215B7BCE00234F6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DEC1A6215B7BCE00234F6A;
+			remoteInfo = H264DecodeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38DEC1A7215B7BCE00234F6A /* H264DecodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H264DecodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DEC1AA215B7BCE00234F6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38DEC1AB215B7BCE00234F6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38DEC1AD215B7BCE00234F6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38DEC1AE215B7BCE00234F6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		38DEC1B1215B7BCE00234F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38DEC1B3215B7BCF00234F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38DEC1B6215B7BCF00234F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38DEC1B8215B7BCF00234F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DEC1B9215B7BCF00234F6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38DEC1BF215B7BCF00234F6A /* H264DecodeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = H264DecodeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DEC1C3215B7BCF00234F6A /* H264DecodeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H264DecodeDemoTests.m; sourceTree = "<group>"; };
+		38DEC1C5215B7BCF00234F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DEC1CA215B7BCF00234F6A /* H264DecodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = H264DecodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DEC1CE215B7BCF00234F6A /* H264DecodeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H264DecodeDemoUITests.m; sourceTree = "<group>"; };
+		38DEC1D0215B7BCF00234F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DEC1DC215B7C2200234F6A /* ZJH264Decoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJH264Decoder.h; sourceTree = "<group>"; };
+		38DEC1DD215B7C2200234F6A /* ZJH264Decoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJH264Decoder.m; sourceTree = "<group>"; };
+		38DEC1DF215B7DB000234F6A /* ZJVideoFileParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJVideoFileParser.h; sourceTree = "<group>"; };
+		38DEC1E0215B7DB000234F6A /* ZJVideoFileParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJVideoFileParser.m; sourceTree = "<group>"; };
+		38DEC1E2215B821A00234F6A /* mtv.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mtv.h264; sourceTree = "<group>"; };
+		38DEC1E4215B88B200234F6A /* ZJFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJFirstViewController.h; sourceTree = "<group>"; };
+		38DEC1E5215B88B200234F6A /* ZJFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJFirstViewController.m; sourceTree = "<group>"; };
+		38DEC1E7215B88C200234F6A /* ZJSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJSecondViewController.h; sourceTree = "<group>"; };
+		38DEC1E8215B88C200234F6A /* ZJSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJSecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38DEC1A4215B7BCE00234F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DEC1BC215B7BCF00234F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DEC1C7215B7BCF00234F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38DEC19E215B7BCE00234F6A = {
+			isa = PBXGroup;
+			children = (
+				38DEC1A9215B7BCE00234F6A /* H264DecodeDemo */,
+				38DEC1C2215B7BCF00234F6A /* H264DecodeDemoTests */,
+				38DEC1CD215B7BCF00234F6A /* H264DecodeDemoUITests */,
+				38DEC1A8215B7BCE00234F6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38DEC1A8215B7BCE00234F6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38DEC1A7215B7BCE00234F6A /* H264DecodeDemo.app */,
+				38DEC1BF215B7BCF00234F6A /* H264DecodeDemoTests.xctest */,
+				38DEC1CA215B7BCF00234F6A /* H264DecodeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38DEC1A9215B7BCE00234F6A /* H264DecodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				38DEC1AA215B7BCE00234F6A /* AppDelegate.h */,
+				38DEC1AB215B7BCE00234F6A /* AppDelegate.m */,
+				38DEC1AD215B7BCE00234F6A /* ViewController.h */,
+				38DEC1AE215B7BCE00234F6A /* ViewController.m */,
+				38DEC1B0215B7BCE00234F6A /* Main.storyboard */,
+				38DEC1B3215B7BCF00234F6A /* Assets.xcassets */,
+				38DEC1B5215B7BCF00234F6A /* LaunchScreen.storyboard */,
+				38DEC1B8215B7BCF00234F6A /* Info.plist */,
+				38DEC1B9215B7BCF00234F6A /* main.m */,
+				38DEC1DC215B7C2200234F6A /* ZJH264Decoder.h */,
+				38DEC1DD215B7C2200234F6A /* ZJH264Decoder.m */,
+				38DEC1DF215B7DB000234F6A /* ZJVideoFileParser.h */,
+				38DEC1E0215B7DB000234F6A /* ZJVideoFileParser.m */,
+				38DEC1E2215B821A00234F6A /* mtv.h264 */,
+				38DEC1E4215B88B200234F6A /* ZJFirstViewController.h */,
+				38DEC1E5215B88B200234F6A /* ZJFirstViewController.m */,
+				38DEC1E7215B88C200234F6A /* ZJSecondViewController.h */,
+				38DEC1E8215B88C200234F6A /* ZJSecondViewController.m */,
+			);
+			path = H264DecodeDemo;
+			sourceTree = "<group>";
+		};
+		38DEC1C2215B7BCF00234F6A /* H264DecodeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				38DEC1C3215B7BCF00234F6A /* H264DecodeDemoTests.m */,
+				38DEC1C5215B7BCF00234F6A /* Info.plist */,
+			);
+			path = H264DecodeDemoTests;
+			sourceTree = "<group>";
+		};
+		38DEC1CD215B7BCF00234F6A /* H264DecodeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38DEC1CE215B7BCF00234F6A /* H264DecodeDemoUITests.m */,
+				38DEC1D0215B7BCF00234F6A /* Info.plist */,
+			);
+			path = H264DecodeDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38DEC1A6215B7BCE00234F6A /* H264DecodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DEC1D3215B7BCF00234F6A /* Build configuration list for PBXNativeTarget "H264DecodeDemo" */;
+			buildPhases = (
+				38DEC1A3215B7BCE00234F6A /* Sources */,
+				38DEC1A4215B7BCE00234F6A /* Frameworks */,
+				38DEC1A5215B7BCE00234F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = H264DecodeDemo;
+			productName = H264DecodeDemo;
+			productReference = 38DEC1A7215B7BCE00234F6A /* H264DecodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38DEC1BE215B7BCF00234F6A /* H264DecodeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DEC1D6215B7BCF00234F6A /* Build configuration list for PBXNativeTarget "H264DecodeDemoTests" */;
+			buildPhases = (
+				38DEC1BB215B7BCF00234F6A /* Sources */,
+				38DEC1BC215B7BCF00234F6A /* Frameworks */,
+				38DEC1BD215B7BCF00234F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38DEC1C1215B7BCF00234F6A /* PBXTargetDependency */,
+			);
+			name = H264DecodeDemoTests;
+			productName = H264DecodeDemoTests;
+			productReference = 38DEC1BF215B7BCF00234F6A /* H264DecodeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38DEC1C9215B7BCF00234F6A /* H264DecodeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DEC1D9215B7BCF00234F6A /* Build configuration list for PBXNativeTarget "H264DecodeDemoUITests" */;
+			buildPhases = (
+				38DEC1C6215B7BCF00234F6A /* Sources */,
+				38DEC1C7215B7BCF00234F6A /* Frameworks */,
+				38DEC1C8215B7BCF00234F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38DEC1CC215B7BCF00234F6A /* PBXTargetDependency */,
+			);
+			name = H264DecodeDemoUITests;
+			productName = H264DecodeDemoUITests;
+			productReference = 38DEC1CA215B7BCF00234F6A /* H264DecodeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38DEC19F215B7BCE00234F6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZJ;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ZJ;
+				TargetAttributes = {
+					38DEC1A6215B7BCE00234F6A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					38DEC1BE215B7BCF00234F6A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 38DEC1A6215B7BCE00234F6A;
+					};
+					38DEC1C9215B7BCF00234F6A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 38DEC1A6215B7BCE00234F6A;
+					};
+				};
+			};
+			buildConfigurationList = 38DEC1A2215B7BCE00234F6A /* Build configuration list for PBXProject "H264DecodeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38DEC19E215B7BCE00234F6A;
+			productRefGroup = 38DEC1A8215B7BCE00234F6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38DEC1A6215B7BCE00234F6A /* H264DecodeDemo */,
+				38DEC1BE215B7BCF00234F6A /* H264DecodeDemoTests */,
+				38DEC1C9215B7BCF00234F6A /* H264DecodeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38DEC1A5215B7BCE00234F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DEC1E3215B83C200234F6A /* mtv.h264 in Resources */,
+				38DEC1B7215B7BCF00234F6A /* LaunchScreen.storyboard in Resources */,
+				38DEC1B4215B7BCF00234F6A /* Assets.xcassets in Resources */,
+				38DEC1B2215B7BCE00234F6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DEC1BD215B7BCF00234F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DEC1C8215B7BCF00234F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38DEC1A3215B7BCE00234F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DEC1DE215B7C2200234F6A /* ZJH264Decoder.m in Sources */,
+				38DEC1E1215B7DB000234F6A /* ZJVideoFileParser.m in Sources */,
+				38DEC1E9215B88C200234F6A /* ZJSecondViewController.m in Sources */,
+				38DEC1AF215B7BCE00234F6A /* ViewController.m in Sources */,
+				38DEC1E6215B88B200234F6A /* ZJFirstViewController.m in Sources */,
+				38DEC1BA215B7BCF00234F6A /* main.m in Sources */,
+				38DEC1AC215B7BCE00234F6A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DEC1BB215B7BCF00234F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DEC1C4215B7BCF00234F6A /* H264DecodeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DEC1C6215B7BCF00234F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DEC1CF215B7BCF00234F6A /* H264DecodeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38DEC1C1215B7BCF00234F6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38DEC1A6215B7BCE00234F6A /* H264DecodeDemo */;
+			targetProxy = 38DEC1C0215B7BCF00234F6A /* PBXContainerItemProxy */;
+		};
+		38DEC1CC215B7BCF00234F6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38DEC1A6215B7BCE00234F6A /* H264DecodeDemo */;
+			targetProxy = 38DEC1CB215B7BCF00234F6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38DEC1B0215B7BCE00234F6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DEC1B1215B7BCE00234F6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38DEC1B5215B7BCF00234F6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DEC1B6215B7BCF00234F6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38DEC1D1215B7BCF00234F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38DEC1D2215B7BCF00234F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38DEC1D4215B7BCF00234F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA4957F4LN;
+				INFOPLIST_FILE = H264DecodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zj.app.H264DecodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		38DEC1D5215B7BCF00234F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA4957F4LN;
+				INFOPLIST_FILE = H264DecodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zj.app.H264DecodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		38DEC1D7215B7BCF00234F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA4957F4LN;
+				INFOPLIST_FILE = H264DecodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zj.app.H264DecodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/H264DecodeDemo.app/H264DecodeDemo";
+			};
+			name = Debug;
+		};
+		38DEC1D8215B7BCF00234F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA4957F4LN;
+				INFOPLIST_FILE = H264DecodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zj.app.H264DecodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/H264DecodeDemo.app/H264DecodeDemo";
+			};
+			name = Release;
+		};
+		38DEC1DA215B7BCF00234F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA4957F4LN;
+				INFOPLIST_FILE = H264DecodeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zj.app.H264DecodeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = H264DecodeDemo;
+			};
+			name = Debug;
+		};
+		38DEC1DB215B7BCF00234F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MA4957F4LN;
+				INFOPLIST_FILE = H264DecodeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zj.app.H264DecodeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = H264DecodeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38DEC1A2215B7BCE00234F6A /* Build configuration list for PBXProject "H264DecodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DEC1D1215B7BCF00234F6A /* Debug */,
+				38DEC1D2215B7BCF00234F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DEC1D3215B7BCF00234F6A /* Build configuration list for PBXNativeTarget "H264DecodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DEC1D4215B7BCF00234F6A /* Debug */,
+				38DEC1D5215B7BCF00234F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DEC1D6215B7BCF00234F6A /* Build configuration list for PBXNativeTarget "H264DecodeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DEC1D7215B7BCF00234F6A /* Debug */,
+				38DEC1D8215B7BCF00234F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DEC1D9215B7BCF00234F6A /* Build configuration list for PBXNativeTarget "H264DecodeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DEC1DA215B7BCF00234F6A /* Debug */,
+				38DEC1DB215B7BCF00234F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38DEC19F215B7BCE00234F6A /* Project object */;
+}
