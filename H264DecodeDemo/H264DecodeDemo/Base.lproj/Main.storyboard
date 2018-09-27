@@ -19,14 +19,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMh-o9-B0a">
-                                <rect key="frame" x="137" y="219" width="46" height="30"/>
+                                <rect key="frame" x="132" y="217" width="56" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="方案一"/>
                                 <connections>
                                     <segue destination="oF5-JT-209" kind="show" id="pHl-Wu-tpk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWQ-nV-DJk">
-                                <rect key="frame" x="137" y="319" width="46" height="30"/>
+                                <rect key="frame" x="132" y="317" width="56" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="方案二"/>
                                 <connections>
                                     <segue destination="HF6-ni-xwh" kind="show" id="oFa-n8-wEd"/>
@@ -58,12 +60,14 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SIH-K9-1rD">
                                 <rect key="frame" x="0.0" y="164" width="320" height="240"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="7GX-Cm-bXn"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvJ-GP-T6x">
-                                <rect key="frame" x="143" y="454" width="34" height="30"/>
+                                <rect key="frame" x="140" y="454" width="40" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
                                     <action selector="startClick:" destination="oF5-JT-209" eventType="touchUpInside" id="ApB-k0-PWh"/>
@@ -99,12 +103,14 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eid-eQ-pgJ">
                                 <rect key="frame" x="0.0" y="164" width="320" height="240"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="CLA-eF-VeA"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KlP-U7-Ghq">
-                                <rect key="frame" x="143" y="454" width="34" height="30"/>
+                                <rect key="frame" x="140" y="454" width="40" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
                                     <action selector="startClick:" destination="HF6-ni-xwh" eventType="touchUpInside" id="So1-IZ-5uq"/>
